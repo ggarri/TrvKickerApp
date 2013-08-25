@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_trv_kicker_model_Player" modelAttribute="player" path="/players" render="${empty dependencies}" z="gtPsnT0Zr+X5A2o8nKPbr4rQCy4=">
+        <field:input field="trvEmail" id="c_com_trv_kicker_model_Player_trvEmail" required="true" z="guuEevmTiNMAYPTG7oWitQstV3Y="/>
+        <field:input field="nickName" id="c_com_trv_kicker_model_Player_nickName" min="4" required="true" z="c4J8ipmXPz/dipphZxyVsUu1n1A="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_trv_kicker_model_Player" render="${not empty dependencies}" z="H1OuPJK5qu4W0UPo7nqUEmukVZw="/>
+</div>
